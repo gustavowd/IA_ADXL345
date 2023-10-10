@@ -102,8 +102,6 @@ void Task_edge_impulse(void *param){
 	#if EI_CLASSIFIER_HAS_ANOMALY == 1
 	    ei_printf("    anomaly score: %.3f\n", result.anomaly);
 	#endif
-
-	    vTaskDelay(1000);
 	}
 }
 #endif
